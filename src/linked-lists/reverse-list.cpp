@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../inc/common/lmanager.h"
-#include "../inc/common/lnode.h"
+#include "linked-lists/lmanager.h"
+#include "linked-lists/lnode.h"
 
 using namespace std;
 

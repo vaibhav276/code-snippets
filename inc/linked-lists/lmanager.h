@@ -1,8 +1,8 @@
 #ifndef __LMANAGER_H
 #define __LMANAGER_H
 
-#include "debuggable.h"
-#include "lnode.h"
+#include "common/debuggable.h"
+#include "linked-lists/lnode.h"
 
 using namespace std;
 
