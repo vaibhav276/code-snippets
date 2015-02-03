@@ -12,7 +12,7 @@ I am starting this open source collection of interesting programming problems be
 Executable files will be created inside `target` directory
 
 ## Steps to clean before commit
-1.From root directory of the repo, run `make clean`
+1. From root directory of the repo, run `make clean`
 
 ## License
 MIT
