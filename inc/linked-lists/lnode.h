@@ -38,8 +38,10 @@ std::ostream& operator << (std::ostream& os, LNode<T> *list) {
 			sizeOfList += sizeof(LNode<T>);
 			curr = curr->getNext();
 		}
-		os<<*(curr->getData());
-		sizeOfList += sizeof(LNode<T>);
+		if(NULL != curr) {
+			os<<*(curr->getData());
+			sizeOfList += sizeof(LNode<T>);
+		}
 		os<<" ("<<sizeOfList<<" bytes)";
 		
 		return os;
