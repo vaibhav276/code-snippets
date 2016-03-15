@@ -1,3 +1,4 @@
 .c9/
-obj/
-target/
+build/
+*.o
+*.swp

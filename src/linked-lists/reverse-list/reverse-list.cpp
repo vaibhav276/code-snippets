@@ -7,8 +7,8 @@
  */
 
 #include <iostream>
-#include "linked-lists/lmanager.h"
-#include "linked-lists/lnode.h"
+#include <common/lmanager.h>
+#include <common/lnode.h>
 
 using namespace std;
 
